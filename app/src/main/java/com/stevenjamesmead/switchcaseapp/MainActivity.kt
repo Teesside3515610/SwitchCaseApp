@@ -39,13 +39,12 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("Android")
+                    Greeting("surya")
                 }
             }
         }
     }
 }
-
 // switchCase IS NOT a composable function
 fun switchCase(str: String) : String {
     return str.map {
